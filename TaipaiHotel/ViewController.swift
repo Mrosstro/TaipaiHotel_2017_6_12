@@ -9,17 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var hotelName:String = ""
+    var hotelAddr:String = ""
+    
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        labelName.text = hotelName
+        
+        let address:String = "http://maps.google.com/maps?hl=zh-TW&q=" + hotelAddr as! String
+        let url:URL = URL(string: address.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!)!
+        let request = URLRequest(url: url)
+        
+        webView!.loadRequest(request)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
 

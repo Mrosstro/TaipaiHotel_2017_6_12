@@ -12,6 +12,10 @@
 		2C1A431A1EEE297D00D24801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A43181EEE297D00D24801 /* Main.storyboard */; };
 		2C1A431C1EEE297D00D24801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A431B1EEE297D00D24801 /* Assets.xcassets */; };
 		2C1A431F1EEE297D00D24801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A431D1EEE297D00D24801 /* LaunchScreen.storyboard */; };
+		2C1A43271EEE56D300D24801 /* HotelSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A43261EEE56D300D24801 /* HotelSingle.swift */; };
+		2C1A43291EEE5ABD00D24801 /* MyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A43281EEE5ABD00D24801 /* MyDelegate.swift */; };
+		2C1A432B1EEE5B8F00D24801 /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A432A1EEE5B8F00D24801 /* HttpController.swift */; };
+		2C1A432D1EEE8FE400D24801 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A432C1EEE8FE400D24801 /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		2C1A431B1EEE297D00D24801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C1A431E1EEE297D00D24801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C1A43201EEE297D00D24801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1A43261EEE56D300D24801 /* HotelSingle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelSingle.swift; sourceTree = "<group>"; };
+		2C1A43281EEE5ABD00D24801 /* MyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDelegate.swift; sourceTree = "<group>"; };
+		2C1A432A1EEE5B8F00D24801 /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
+		2C1A432C1EEE8FE400D24801 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				2C1A431B1EEE297D00D24801 /* Assets.xcassets */,
 				2C1A431D1EEE297D00D24801 /* LaunchScreen.storyboard */,
 				2C1A43201EEE297D00D24801 /* Info.plist */,
+				2C1A43261EEE56D300D24801 /* HotelSingle.swift */,
+				2C1A43281EEE5ABD00D24801 /* MyDelegate.swift */,
+				2C1A432A1EEE5B8F00D24801 /* HttpController.swift */,
+				2C1A432C1EEE8FE400D24801 /* MyTableViewController.swift */,
 			);
 			path = TaipaiHotel;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1A43291EEE5ABD00D24801 /* MyDelegate.swift in Sources */,
+				2C1A432D1EEE8FE400D24801 /* MyTableViewController.swift in Sources */,
+				2C1A432B1EEE5B8F00D24801 /* HttpController.swift in Sources */,
 				2C1A43171EEE297D00D24801 /* ViewController.swift in Sources */,
+				2C1A43271EEE56D300D24801 /* HotelSingle.swift in Sources */,
 				2C1A43151EEE297D00D24801 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
